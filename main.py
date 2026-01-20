@@ -51,7 +51,7 @@ class BankAccount:
         """Returns the number of created accounts"""
         return cls._accounts_created
 
-# If __name == '__main__'
+# if __name == '__main__'
 if __name__ == '__main__':
     # Create account
     account1 = BankAccount("Mike Tyson", "321654", 1000)
